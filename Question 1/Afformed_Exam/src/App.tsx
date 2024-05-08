@@ -1,14 +1,21 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AllProductsPage from './AllProductsPage';
+import ProductDetailPage from './ProductDetailPage';
+import ProductList from './ProductList';
 
-import Message from "./Components/Message";
-function App() {
-
-
+function App(): JSX.Element {
   return (
-    
-    <>
-    <Message />
-    </> 
-  )
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route exact path="/" component={AllProductsPage} />
+          <Route path="/product/:productId" component={ProductDetailPage} />
+          <Route path="/product-list" ProuctList />
+        </Switch>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

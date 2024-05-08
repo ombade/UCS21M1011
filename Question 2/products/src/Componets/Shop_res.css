@@ -1,0 +1,348 @@
+@media (max-width:1460px) {
+    form.d-flex.Form-Serach.one {
+        margin-left: 32em;
+    }
+    .product-list {
+        justify-content: space-evenly;
+        max-width: 1191px;
+        margin-left: 12em;
+    }
+
+    .form-control {
+        padding: .375rem .75rem;
+    }
+    form.d-flex.Form-Serach.one {
+        margin-top: 6em;
+    }
+}
+
+@media (max-width:1100px) {
+
+
+    form.d-flex.Form-Serach.one {
+        margin-left: 0em;
+    }
+    .product-list {
+        justify-content: space-evenly;
+        max-width: 1191px;
+        margin-left: 12em;
+    }
+    .product {
+        width: 44%;
+    }
+    form.d-flex.Form-Serach.one {
+        margin-top: 6em;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .product {
+        width: 74%;
+    }
+    form.d-flex.Form-Serach.one {
+        margin-top: 6em;
+    }
+}
+
+@media (max-width:477px) {
+    form.d-flex.Form-Serach.one {
+        margin-top: 6em;
+    }
+    .product {
+        width: 121%;
+    }
+
+    .product-list {
+        justify-content: space-evenly;
+        max-width: 1224px;
+        margin-left: 7em;
+    }
+
+    .sidebar {
+        width: 28%;
+    }
+    /* form, .contact-info {
+        padding: 0.7rem 7.2rem;
+    } */
+    /* .form-control {
+        padding: 0.375rem 1.75rem;
+    } */
+}
+
+
+/* const products = [
+    {
+      "name": "Whirlpool 184 L 2 Star Direct-Cool Single Door Refrigerato",
+      "price": 13590,
+      "img": "https://m.media-amazon.com/images/I/51k+PK-N+hL._SL1000_.jpg",
+      "category": "Refrigerator"
+    },
+    {
+      "name": "FEDUS 16 Gauge/AWG Speaker Wire Oxygen-Free Copper 2 Conductors Audio Speaker Cable ",
+      "price": 499,
+      "img": "https://m.media-amazon.com/images/I/81Nz1HqPRXL._SL1500_.jpg",
+      "category": "Cables",
+    },
+    {
+      "name": "Nikon Z50 Mirrorless Optical Zoom Camera",
+      "price": 73950,
+      "img": "https://m.media-amazon.com/images/I/61cBZ5Z+ekL._SL1000_.jpg",
+      "category": "Camera",
+    },
+    {
+        "name": "Whirlpool 29 Litres Convection Microwave Oven With 300 Plus Auto Cook Menus",
+        "price": 12490,
+        "img": "https://m.media-amazon.com/images/I/61IrO5ZjkPL._SL1500_.jpg",
+        "category": "Oven",
+    },
+    {
+      "name": "LG 7 Kg 5 Star Inverter TurboDrum Fully Automatic Top Loading Washing Machine",
+      "price": 16660,
+      "img": "https://m.media-amazon.com/images/I/715CMAPwl3L._SL1500_.jpg",
+      "category": "Washing Machine",
+    },
+    {
+      "name": "LG Tv 42 inch",
+      "price": 21999,
+      "img": "http://www.lg.com/us/images/tvs/md05802269/gallery/medium01.jpg",
+      "category": "TV"
+    },
+    {
+      "name": "Samsung Tv 40 inch",
+      "price": 20999,
+      "img": "http://www.220-electronics.com/media/catalog/product/s/o/sony-kdl55hx750multi-system-tv-angle_1.png",
+      "category": "TV"
+    },
+    {
+        "name": "Samsung 23 L Grill Microwave Oven (MG23A3515AK/TL, Best Diwali Gift, Black)",
+        "price": 8250,
+        "img": "https://m.media-amazon.com/images/I/71DQGXSkOPL._SL1500_.jpg",
+        "category": "Oven",
+    },
+    {
+      "name": "Godrej 180 L 4 Star Turbo Cooling Technology, With 24 Days Farm Freshness Direct Cool Refrigerator",
+      "price": 14840,
+      "img": "https://m.media-amazon.com/images/I/61eqjPy4dbL._SL1500_.jpg",
+      "category": "Refrigerator",
+    },
+      {
+        "name": "Fujifilm X-T4 26 MP Mirrorless Camera Body with XF16-80mm Lens (X-Trans CMOS4 Sensor, EVF, Face/Eye AF, IBIS, LCD Touchscreen",
+        "price": 164990,
+        "img": "https://m.media-amazon.com/images/I/71BtxnjY0aL._SL1000_.jpg",
+        "category": "Camera",
+      },
+      {
+        "name": "Wonderchef Oven Toaster Griller (OTG) Crimson Edge - 9 Litres - with Auto-shut Off, Heat-resistant Tempered Glass, Multi-stage Heat Selection, 2 Yrs Warranty",
+        "price": 2099,
+        "img": "https://m.media-amazon.com/images/I/61JMVlra6qL._SL1100_.jpg",
+        "category": "Oven",
+      },
+      // 
+      {
+        "name": "Sony Bravia 108 cm (43 inches) 4K Ultra HD Smart LED Google TV KD-43X64L",
+        "price": 40990,
+        "img": "https://m.media-amazon.com/images/I/715-IBd7vlL._SL1500_.jpg",
+        "category": "TV",
+      },
+      {
+        "name": "NU 7 Kg Semi-Automatic Top Load Washing Machine with Soft Close Premium Toughened Glass Lid",
+        "price": 7990,
+        "img": "https://m.media-amazon.com/images/I/718xEzaQdaL._SL1500_.jpg",
+        "category": "Washing Machine",
+      },~
+      {
+        "name": "LG 185 L 5 Star Inverter Direct-Cool Single Door Refrigerator ",
+        "price": 17290,
+        "img": "https://m.media-amazon.com/images/I/61Fc4qfedbL._SL1500_.jpg",
+        "category": "Refrigerator",
+      },
+      {
+        "name": "boAt Deuce USB 300 2 in 1 Type-C & Micro USB Stress Resistant, Sturdy Cable with 3A Fast Charging ",
+        "price": 199,
+        "img": "https://m.media-amazon.com/images/I/61fnMoYvdSL._SL1500_.jpg",
+        "category": "Cables",
+      },
+      {
+        "name": "Shakti Technology MMA 250G Inverter ARC Compact Welding Machine (IGBT) 250A with Hot Start ",
+        "price": 6719,
+        "img": "https://m.media-amazon.com/images/I/61-UIWxa58L._SL1500_.jpg",
+        "category": "Tools",
+      },
+      {
+        "name": "Sony Bravia 80 cm (32 inches) HD Ready Smart LED Google TV KD-32W820K (Black) (2022 Model)",
+        "price": 24990,
+        "img": "https://m.media-amazon.com/images/I/81PpB5Y5kmL._SL1500_.jpg",
+        "category": "TV",
+      },
+      {
+        "name": "Haier 165 L 1 Star Direct Cool Single Door Refrigerator Appliance",
+        "price": 21999,
+        "img": "https://m.media-amazon.com/images/I/51LGKnrcXCL._SL1500_.jpg",
+        "category": "Refrigerator",
+      },
+      {
+        "name": "LEQTRONIQ 4K HD Auto Focus Camera with 48MP 30FPS 18X Digital Zoom",
+        "price": 17990,
+        "img": "https://m.media-amazon.com/images/I/61ZQmvzVJuL._SL1500_.jpg",
+        "category": "Camera",
+      },
+      {
+        "name": "KHANSAHEB Tool Kit 46 Pieces Socket Wrench Set with 1/4 inch Drive Mechanic Ratchet Screwdriver Sockets Metric",
+        "price": 699,
+        "img": "https://m.media-amazon.com/images/I/81tXRtXs3vL._SL1488_.jpg",
+        "category": "Tools",
+      },
+      {
+        "name": "Whirlpool 6.5 Kg 5 Star Superb Atom Semi-Automatic Top Loading Washing Machine",
+        "price": 4990,
+        "img": "https://m.media-amazon.com/images/I/61ip89p3AaL._SL1500_.jpg",
+        "category": "Washing Machine",
+      },
+      {
+        "name": "ROCKTECH® Action Camera for Vlogging, Mountain Biking,Travelling, Scuba Diving,Motor Vlogging (4K @ 30FPS Action Camera)",
+        "price": 2199,
+        "img": "https://m.media-amazon.com/images/I/51Bp3mZIcZL.jpg",
+        "category": "Camera",
+      },
+      {
+        "name": "LG 242 L 3 Star Smart Inverter Frost-Free Double Door Refrigerator",
+        "price": 25990,
+        "img": "https://m.media-amazon.com/images/I/610ULYlLFDL._SL1500_.jpg",
+        "category": "Refrigerator",
+      },
+      {
+        "name": "Samsung 108 cm (43 inches) Crystal iSmart 4K Ultra HD Smart LED TV",
+        "price": 30990,
+        "img": "https://m.media-amazon.com/images/I/71S8qt+K8hL._SL1500_.jpg",
+        "category": "TV",
+      },
+      {
+        "name": "Hybite® 15 Meter Telephone Landline Cord Cable Landline Wire with Standard RJ-11 Plugs, High-Speed Internet Modem Cable",
+        "price": 299,
+        "img": "https://m.media-amazon.com/images/I/51hhw5wheQL.jpg",
+        "category": "Cables",
+      },
+      {
+        "name": "TP-Link Tapo 360° 2MP 1080p Full HD Pan/Tilt Home Security Wi-Fi Smart Camera| Alexa Enabled| 2-Way Audio| Night Vision| Motion Detection| Sound and Light Alarm",
+        "price": 2090,
+        "img": "https://m.media-amazon.com/images/I/41KuE9NipqL._SL1000_.jpg",
+        "category": "Camera",
+      },
+      //
+      {
+        "name": "8 in 1 Multi-Function Screwdriver Kit | Hardware Repair Tool Kit Set with LED Portable Torch for Car & Bike, Kitchen Multicolour",
+        "price": 299,
+        "img": "https://m.media-amazon.com/images/I/41LhKCd1+rL.jpg",
+        "category": "Tools",
+      },
+      {
+        "name": "VU 164 cm (65 inches) The GloLED Series 4K Smart LED Google TV",
+        "price": 55999,
+        "img": "https://m.media-amazon.com/images/I/71ep8pVlgyL._SL1500_.jpg",
+        "category": "TV",
+      },
+      {
+        "name": "Fujifilm Instax Mini 12 Instant Camera-Pink",
+        "price": 6999,
+        "img": "https://m.media-amazon.com/images/I/61+5Ld-oc1L._SL1500_.jpg",
+        "category": "Camera",
+      },
+      {
+        "name": "LG 7 Kg 5 Star Inverter TurboDrum Fully Automatic Top Loading Washing Machine (T70SKSF1Z, Waterfall Circulation, Smart Motion, Middle Free Silver)",
+        "price": 17440,
+        "img": "https://m.media-amazon.com/images/I/715CMAPwl3L._SL1500_.jpg",
+        "category": "Washing Machine",
+      },
+      {
+         "name": "IBELL Professional Tool Kit with Impact Drill TD13-85, 650W, Copper Armature, Chuck 13mm Keyless Auto, 59 Home Essential",
+         "price": 2580,
+         "img": "https://m.media-amazon.com/images/I/71VSRq40YYL._SL1500_.jpg",
+         "category": "Tools",
+       },
+      {
+        "name": "LG 139 cm (55 inches) 4K Ultra HD Smart OLED TV 55A3PSA (Rocky Black)",
+        "price": 114990,
+        "img": "https://m.media-amazon.com/images/I/71dKr9UhGeL._SL1500_.jpg",
+        "category": "TV",
+      },
+      {
+        "name": "TWC Lite Single Core Electrical Wire |Blue, 90 Meter, 1 SQ.MM. |PVC electrical insulated copper wire",
+        "price": 1007,
+        "img": "https://m.media-amazon.com/images/I/51pBymeHqgL.jpg",
+        "category": "Cables",
+      },
+      {
+        "name": "Whirlpool 184 L 2 Star Direct-Cool Single Door Refrigerato",
+        "price": 13590,
+        "img": "https://m.media-amazon.com/images/I/51k+PK-N+hL._SL1000_.jpg",
+        "category": "Refrigerator"
+      },
+      {
+        "name": "TOSHIBA 139 cm (55 inches) 4K Ultra HD Smart Mini LED QLED TV 55M650MP (Black)",
+        "price": 56999,
+        "img": "https://m.media-amazon.com/images/I/81CYHYpr5zL._SL1500_.jpg",
+        "category": "TV",
+      },
+      {
+        "name": "Samsung 7 kg, 5 star, Semi-Automatic Washing Machine",
+        "price": 10690,
+        "img": "https://m.media-amazon.com/images/I/71xwSs6EVML._SL1500_.jpg",
+        "category": "Washing Machine",
+      },
+      {
+        "name": "Amazon Basics 16-Gauge/AWG Speaker Wire, Oxygen-Free Copper, Two Conductors, Audio Speaker Cable for Car",
+        "price": 739,
+        "img": "https://m.media-amazon.com/images/I/81PqXNYC8EL._SL1500_.jpg",
+        "category": "Cables",
+      },
+      {
+        "name": "Canon Digital Camera EOS R50 RF-S18-45mm is STM (Black)",
+        "price": 70990,
+        "img": "https://m.media-amazon.com/images/I/81LskAU5h1L._SL1500_.jpg",
+        "category": "Camera",
+      },
+      {
+         "name": "Inditrust New Electric Angle Grinder Machine with 12 different accessories wheels cup brush and gloves",
+         "price": 1899,
+         "img": "https://m.media-amazon.com/images/I/81kWQ8pCiWL._SL1500_.jpg",
+         "category": "Tools",
+       },
+      {
+        "name": "Whirlpool 8.5 kg 5 Star Semi-Automatic Top Loading Washing Machine (ACE 8.5 TRB DRY, GREY DAZZLE (10YR)-N, Grey Dazzle, 2x Drying Power)",
+        "price": 12990,
+        "img": "https://m.media-amazon.com/images/I/6148W71OMfL._SL1500_.jpg",
+        "category": "Washing Machine",
+      },
+      {
+        "name": "RAVIRANDAL Car Heavy Duty Auto Jumper Cable Battery Booster Wire Clamp with Alligator Wire ",
+        "price": 369,
+        "img": "https://m.media-amazon.com/images/I/61b5CaadgYL._SL1200_.jpg",
+        "category": "Cables",
+      },
+      {
+        "name": "Sony Alpha ILCE-6100Y 24.2 MP Mirrorless Digital SLR Camera with 16-50 mm and 55-210 mm Zoom Lenses",
+        "price": 78989,
+        "img": "https://m.media-amazon.com/images/I/81lghf1fdzL._SL1500_.jpg",
+        "category": "Camera",
+      },
+      {
+         "name": "Cable World® Latest PC Repair Screwdriver Set, 110 in 1 Professional Screwdriver Set, Multi-Function Magnetic Repair Computer Tool Kit",
+         "price": 599,
+         "img": "https://m.media-amazon.com/images/I/61JaO+OVO6L._SL1000_.jpg",
+         "category": "Tools",
+       },
+       {
+        "name": "Haier 42 L 5 Star Mini Bar Single Door Refrigerator Appliances",
+        "price": 9990,
+        "img": "https://m.media-amazon.com/images/I/51Gbs+RpZDL._SL1500_.jpg",
+        "category": "Refrigerator",
+      },
+      {
+        "name": "FEDUS 1.2 Meter 2-pin L-Shape Universal Replacement AC Power Cord Cable Wire for LED TV, Printer, Play Station, Laptop PC Notebook Computer",
+        "price": 212,
+        "img": "https://m.media-amazon.com/images/I/51idT6vqa7L._SL1500_.jpg",
+        "category": "Cables",
+      }, 
+  ]; */
